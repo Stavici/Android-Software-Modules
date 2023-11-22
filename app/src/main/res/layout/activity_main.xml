@@ -4,12 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/content"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_authenticate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:background="@color/design_default_color_secondary_variant"
+        android:padding="10dp"
+        android:text="Authenticate"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
